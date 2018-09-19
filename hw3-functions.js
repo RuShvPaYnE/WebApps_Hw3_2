@@ -59,7 +59,6 @@ function createTable() {
                     d = d+1; 
                 }else{
                 var td = document.createElement('td');
-                //td.appendChild(document.createTextNode('\u0020'))
                 tr.appendChild(td);
                 let text = lips.generate(10);
                 td.innerText =text;    
