@@ -40,8 +40,6 @@ function createTable() {
     let column=divClass.getAttribute("data-gv-column");
 
     var tbl = document.createElement('table');
-    tbl.style.width = '100%';
-    tbl.setAttribute('border', '1');
     const lips = new LoremIpsum();
     let d = 0;
     
